@@ -1,0 +1,156 @@
+2025-03-06 10:29:21 INFO  [main] api.giybat.uz.Application - Starting Application using Java 21.0.2 with PID 43374 (/Users/temurerkinov/Desktop/api.giybat.uz/target/classes started by temurerkinov in /Users/temurerkinov/Desktop/api.giybat.uz)
+2025-03-06 10:29:21 INFO  [main] api.giybat.uz.Application - The following 1 profile is active: "local"
+2025-03-06 10:29:22 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06 10:29:22 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 6 JPA repository interfaces.
+2025-03-06 10:29:22 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-03-06 10:29:22 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 10:29:22 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-03-06 10:29:23 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 10:29:23 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1251 ms
+2025-03-06 10:29:23 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06 10:29:23 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06 10:29:23 INFO  [main] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-03-06 10:29:23 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:29:23 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06 10:29:23 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-06 10:29:23 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5908e6d6
+2025-03-06 10:29:23 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-06 10:29:23 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:29:24 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06 10:29:24 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:29:24 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06 10:29:25 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06 10:29:25 INFO  [main] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33ccc8cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76b9056d, org.springframework.security.web.context.SecurityContextHolderFilter@5cb3c9e6, org.springframework.security.web.header.HeaderWriterFilter@e00f822, org.springframework.web.filter.CorsFilter@2a9e261d, org.springframework.security.web.authentication.logout.LogoutFilter@712adc04, api.giybat.uz.config.JwtAuthenticationFilter@33a39d7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c855eb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@740ef827, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bcfa08b, org.springframework.security.web.access.ExceptionTranslationFilter@572d1f18, org.springframework.security.web.access.intercept.AuthorizationFilter@27f09e08]
+2025-03-06 10:29:25 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-03-06 10:29:25 INFO  [main] api.giybat.uz.Application - Started Application in 4.053 seconds (process running for 4.602)
+2025-03-06 10:29:25 INFO  [main] o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.16.3 by Redgate
+2025-03-06 10:29:25 INFO  [main] o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-03-06 10:29:25 INFO  [main] o.f.c.i.license.VersionPrinter - 
+2025-03-06 10:29:25 INFO  [main] o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 16.3)
+2025-03-06 10:29:25 WARN  [main] o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-03-06 10:29:25 INFO  [main] o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.027s)
+2025-03-06 10:29:25 INFO  [main] o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2025-03-06 10:29:25 INFO  [main] o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-03-06 10:32:07 INFO  [main] api.giybat.uz.ApplicationTests - Starting ApplicationTests using Java 21.0.2 with PID 43431 (started by temurerkinov in /Users/temurerkinov/Desktop/api.giybat.uz)
+2025-03-06 10:32:07 INFO  [main] api.giybat.uz.ApplicationTests - The following 1 profile is active: "local"
+2025-03-06 10:32:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06 10:32:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+2025-03-06 10:32:07 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06 10:32:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06 10:32:07 INFO  [main] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-03-06 10:32:08 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:32:08 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06 10:32:08 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-06 10:32:08 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8077c97
+2025-03-06 10:32:08 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-06 10:32:08 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:32:08 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06 10:32:08 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:32:08 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06 10:32:09 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06 10:32:09 INFO  [main] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32ff3c98, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f804b36, org.springframework.security.web.context.SecurityContextHolderFilter@76958827, org.springframework.security.web.header.HeaderWriterFilter@23938caa, org.springframework.web.filter.CorsFilter@201f0e84, org.springframework.security.web.authentication.logout.LogoutFilter@e4b9a64, api.giybat.uz.config.JwtAuthenticationFilter@519e14f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7225583d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71c1e70f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5629e904, org.springframework.security.web.access.ExceptionTranslationFilter@443819d5, org.springframework.security.web.access.intercept.AuthorizationFilter@2ca8bd50]
+2025-03-06 10:32:09 INFO  [main] api.giybat.uz.ApplicationTests - Started ApplicationTests in 2.507 seconds (process running for 3.252)
+2025-03-06 10:32:09 INFO  [main] o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.16.3 by Redgate
+2025-03-06 10:32:09 INFO  [main] o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-03-06 10:32:09 INFO  [main] o.f.c.i.license.VersionPrinter - 
+2025-03-06 10:32:09 INFO  [main] o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 16.3)
+2025-03-06 10:32:09 WARN  [main] o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-03-06 10:32:09 INFO  [main] o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.010s)
+2025-03-06 10:32:09 INFO  [main] o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2025-03-06 10:32:09 INFO  [main] o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-03-06 10:32:10 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:32:10 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-06 10:32:10 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-06 10:36:09 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:36:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-06 10:36:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-06 10:36:15 INFO  [main] api.giybat.uz.ApplicationTests - Starting ApplicationTests using Java 21.0.2 with PID 43539 (started by temurerkinov in /Users/temurerkinov/Desktop/api.giybat.uz)
+2025-03-06 10:36:15 INFO  [main] api.giybat.uz.ApplicationTests - The following 1 profile is active: "local"
+2025-03-06 10:36:16 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06 10:36:16 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+2025-03-06 10:36:16 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06 10:36:16 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06 10:36:16 INFO  [main] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-03-06 10:36:16 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:36:16 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06 10:36:16 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-06 10:36:16 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1515f782
+2025-03-06 10:36:16 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-06 10:36:17 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:36:17 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06 10:36:17 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:36:17 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06 10:36:18 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06 10:36:18 INFO  [main] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e147828, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e966e67, org.springframework.security.web.context.SecurityContextHolderFilter@7294c9fe, org.springframework.security.web.header.HeaderWriterFilter@6affa355, org.springframework.web.filter.CorsFilter@45dbbb97, org.springframework.security.web.authentication.logout.LogoutFilter@7d45e754, api.giybat.uz.config.JwtAuthenticationFilter@66e27ac9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54a1a6a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25058759, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e383712, org.springframework.security.web.access.ExceptionTranslationFilter@56ed9270, org.springframework.security.web.access.intercept.AuthorizationFilter@1666e021]
+2025-03-06 10:36:18 INFO  [main] api.giybat.uz.ApplicationTests - Started ApplicationTests in 2.66 seconds (process running for 3.381)
+2025-03-06 10:36:18 INFO  [main] o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.16.3 by Redgate
+2025-03-06 10:36:18 INFO  [main] o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-03-06 10:36:18 INFO  [main] o.f.c.i.license.VersionPrinter - 
+2025-03-06 10:36:18 INFO  [main] o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 16.3)
+2025-03-06 10:36:18 WARN  [main] o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-03-06 10:36:18 INFO  [main] o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.011s)
+2025-03-06 10:36:18 INFO  [main] o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2025-03-06 10:36:18 INFO  [main] o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-03-06 10:36:19 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:36:19 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-06 10:36:19 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-06 10:40:02 INFO  [main] api.giybat.uz.ApplicationTests - Starting ApplicationTests using Java 21.0.2 with PID 43595 (started by temurerkinov in /Users/temurerkinov/Desktop/api.giybat.uz)
+2025-03-06 10:40:02 INFO  [main] api.giybat.uz.ApplicationTests - The following 1 profile is active: "local"
+2025-03-06 10:40:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06 10:40:02 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+2025-03-06 10:40:02 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06 10:40:02 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06 10:40:02 INFO  [main] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-03-06 10:40:02 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:40:03 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06 10:40:03 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-06 10:40:03 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ebd6fd6
+2025-03-06 10:40:03 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-06 10:40:03 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:40:03 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06 10:40:03 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:40:04 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06 10:40:04 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06 10:40:04 INFO  [main] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@633328d3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45382749, org.springframework.security.web.context.SecurityContextHolderFilter@65134e6c, org.springframework.security.web.header.HeaderWriterFilter@3edc999f, org.springframework.web.filter.CorsFilter@406cf37f, org.springframework.security.web.authentication.logout.LogoutFilter@36c763cd, api.giybat.uz.config.JwtAuthenticationFilter@3599b7e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32ff3c98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d7914a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d412ab5, org.springframework.security.web.access.ExceptionTranslationFilter@1e250539, org.springframework.security.web.access.intercept.AuthorizationFilter@19e5e846]
+2025-03-06 10:40:04 INFO  [main] api.giybat.uz.ApplicationTests - Started ApplicationTests in 2.982 seconds (process running for 3.68)
+2025-03-06 10:40:04 INFO  [main] o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.16.3 by Redgate
+2025-03-06 10:40:04 INFO  [main] o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-03-06 10:40:04 INFO  [main] o.f.c.i.license.VersionPrinter - 
+2025-03-06 10:40:04 INFO  [main] o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 16.3)
+2025-03-06 10:40:05 WARN  [main] o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-03-06 10:40:05 INFO  [main] o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.010s)
+2025-03-06 10:40:05 INFO  [main] o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2025-03-06 10:40:05 INFO  [main] o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-03-06 10:40:05 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:40:05 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-06 10:40:05 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-06 10:40:51 INFO  [main] api.giybat.uz.ApplicationTests - Starting ApplicationTests using Java 21.0.2 with PID 43615 (started by temurerkinov in /Users/temurerkinov/Desktop/api.giybat.uz)
+2025-03-06 10:40:51 INFO  [main] api.giybat.uz.ApplicationTests - The following 1 profile is active: "local"
+2025-03-06 10:40:51 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-06 10:40:51 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
+2025-03-06 10:40:51 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-06 10:40:51 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-03-06 10:40:51 INFO  [main] org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-03-06 10:40:52 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:40:52 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-06 10:40:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-06 10:40:52 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7871d261
+2025-03-06 10:40:52 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-06 10:40:52 INFO  [main] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-03-06 10:40:52 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-06 10:40:52 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:40:52 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-06 10:40:53 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-06 10:40:53 INFO  [main] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74307afd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a063931, org.springframework.security.web.context.SecurityContextHolderFilter@2c4142f8, org.springframework.security.web.header.HeaderWriterFilter@43f23338, org.springframework.web.filter.CorsFilter@9a932a4, org.springframework.security.web.authentication.logout.LogoutFilter@21132086, api.giybat.uz.config.JwtAuthenticationFilter@c6a1be2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17d3bf09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e250539, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43ab4e83, org.springframework.security.web.access.ExceptionTranslationFilter@408573b1, org.springframework.security.web.access.intercept.AuthorizationFilter@2330c5c5]
+2025-03-06 10:40:53 INFO  [main] api.giybat.uz.ApplicationTests - Started ApplicationTests in 2.916 seconds (process running for 3.529)
+2025-03-06 10:40:53 INFO  [main] o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.16.3 by Redgate
+2025-03-06 10:40:53 INFO  [main] o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2025-03-06 10:40:53 INFO  [main] o.f.c.i.license.VersionPrinter - 
+2025-03-06 10:40:53 INFO  [main] o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/giybat_db (PostgreSQL 16.3)
+2025-03-06 10:40:53 WARN  [main] o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-03-06 10:40:53 INFO  [main] o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.010s)
+2025-03-06 10:40:53 INFO  [main] o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2025-03-06 10:40:53 INFO  [main] o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-03-06 10:40:54 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-06 10:40:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-06 10:40:54 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

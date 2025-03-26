@@ -1,0 +1,56 @@
+### Registration
+POST localhost:8080/api/auth/registration
+Content-Type: application/json
+Accept-Language: EN
+
+{
+    "name": "Temur",
+    "username": "998992880212",
+    "password": "123"
+}
+
+### Registration email verification
+GET http://localhost:8080/api/auth/registration/verification/{profileId}
+
+### Login
+POST localhost:8080/api/auth/login
+Content-Type: application/json
+Accept-Language: EN
+
+{
+  "username": "erkinovtemur351@gmail.com",
+  "password": "123"
+}
+
+### Registration sms verification
+POST http://localhost:8080/api/auth/registration/sms-verification
+Content-Type: application/json
+Accept-Language: EN
+
+{
+    "phone": "998992880212",
+    "code": "12345"
+}
+
+### Reset password
+POST http://localhost:8080/api/auth/reset-password
+Content-Type: application/json
+Accept-Language: UZ
+
+{
+  "username": "erkinovtemur351@gmail.com"
+}
+
+### Reset Password coniform
+POST http://localhost:8080/api/auth/reset-password/coniform
+Content-Type: application/json
+Accept-Language: UZ
+
+{
+  "username": "erkinovtemur351@gmail.com",
+  "verifcationCode": "90400",
+  "newPassword": "12345"
+}
+
+
+

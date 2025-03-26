@@ -1,0 +1,20 @@
+### Eskiz Login
+POST https://notify.eskiz.uz/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "erkinovtemur48@gmail.com",
+  "password": "Jh3IRCs7zGUVCQmpo7OFEHDG6xvctPqqQ3EaDkdY"
+}
+
+###  Sms send
+POST https://notify.eskiz.uz/api/message/sms/send
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDA3MzQ0MjYsImlhdCI6MTczODE0MjQyNiwicm9sZSI6InRlc3QiLCJzaWduIjoiMzFmYWU1Y2EwYmMyODliZGE0YjY4YTY0MDAyYzA4ZGVmMmE2YjI3M2RmMzZmOTBmZmM4NThjMzQ5MDQyYzEyZiIsInN1YiI6Ijk2ODIifQ.km6npd059SaE9Hbq-S4Kq4CyWpdW7K6VK1nAhzCc3uk
+
+{
+  "mobile_phone":"998992880212",
+  "message":"Bu Eskiz dan test",
+  "from":"4546"
+
+}

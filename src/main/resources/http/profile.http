@@ -1,0 +1,49 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### update name
+PUT localhost:8080/profile/detail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiNDAiLCJzdWIiOiJlcmtpbm92dGVtdXIzNTFAZ21haWwuY29tIiwiaWF0IjoxNzM5MjExNTAzLCJleHAiOjE3MzkyOTc5MDN9.XvEoGsPyt87Mh-SpDj7HdBx3PKj44YbCDTC-BoQ5beVinisPNJvcXaw-YCuv_BuQXv_vfsY7LOi9W0MoBmnzMw
+Accept-Language: UZ
+
+{
+  "name": "Temur"
+}
+
+
+### update password
+PUT http://localhost:8080/profile/password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiNDAiLCJzdWIiOiJlcmtpbm92dGVtdXIzNTFAZ21haWwuY29tIiwiaWF0IjoxNzM5MTA1NzAxLCJleHAiOjE3MzkxOTIxMDF9.YtEM_NqACJ3PXq6D3PoAaW_D75r3oLsy2nCdwWfuKa156_NpldAQjJQFmeIWMkl9HkjFFw_IzPvEl1b2T_PjYg
+Accept-Language: UZ
+
+{
+  "oldPassword": "12345",
+  "newPassword": "123"
+}
+
+### update username
+PUT http://localhost:8080/profile/username
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiNDAiLCJzdWIiOiJlcmtpbm92dGVtdXIzNTFAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3MTIzLCJleHAiOjE3MzkzNTM1MjN9.SaxvsIZTccA-jpFerijeymc6TRqPR97yMtuVdcQsNj0rhA6RozClnKPMYi1UB7iF595HaX0IjT9BmuwsU8M0Bw
+Accept-Language: UZ
+
+{
+  "username": "erkinovtemur48@gmail.com"
+}
+
+
+### update username verification
+PUT http://localhost:8080/profile/username/confirm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiNDAiLCJzdWIiOiJlcmtpbm92dGVtdXIzNTFAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3MTIzLCJleHAiOjE3MzkzNTM1MjN9.SaxvsIZTccA-jpFerijeymc6TRqPR97yMtuVdcQsNj0rhA6RozClnKPMYi1UB7iF595HaX0IjT9BmuwsU8M0Bw
+Accept-Language: UZ
+
+{
+  "code": "44301"
+}
+
+
+

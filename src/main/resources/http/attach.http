@@ -1,0 +1,14 @@
+### Upload Attach
+POST http://localhost:8080/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="test.jpeg"
+
+< /Users/temurerkinov/Desktop/test.jpeg
+
+### Open Attach
+GET http://localhost:8080/attach/open/3c1d644b-7f65-4bfa-80f4-1fca8174d61f.jpeg
+
+
